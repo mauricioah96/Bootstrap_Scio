@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SportsNative</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-lg-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nuevo">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promociones">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#catalogo">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid height100p banner" id="home">
+      <div class="container h100">
+        <div class="contentBox h100">
+          <div>
+            <h1>SportsNative</h1>
+            <p>¡Bienvenido a la página #1 de jerseys de fútbol!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="sec1" id="nuevo">
+      <div class="container">
+        <div class="row">
+          <div class="offset-sm-2 col-sm-8">
+            <div class="headerText text-center">
+              <h2>PRODUCTOS NUEVOS</h2>
+              <p>
+                Dale un vistazo a nuestros nuevos productos<br />
+                ¡TODOS IMPORTADOS DEL ESTADIO!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="placeBox">
+              <div class="imgBx">
+                <img
+                  src="https://ss456.liverpool.com.mx/xl/1095872008.jpg"
+                  alt="playera barcelona"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h3>F.C. Barcelona<br /><span>$1500</span></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="placeBox">
+              <div class="imgBx">
+                <img
+                  src="https://www.innovasport.com/medias/jersey-adidas-manchester-united-local-2021-is-GC7958-1.png?context=bWFzdGVyfGltYWdlc3wzNDg5OXxpbWFnZS9wbmd8aW1hZ2VzL2hiNy9oNjYvOTk1MzAzMTQ4NzUxOC5wbmd8MDI5MmNhMDcxYmM1ZGQ2NzZhNjZiNDE1YzNkYzk1NzAyMWIwMjY0YTY1NmJjMjA2MmRmOWI5MDNiNWVlODUzOA"
+                  alt="playera manchester-utd"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h3>Juventus FC<br /><span>$1500</span></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="placeBox">
+              <div class="imgBx">
+                <img
+                  src="https://www.innovasport.com/medias/jersey-adidas-juventus-local-2021-is-EI9894-1.png?context=bWFzdGVyfGltYWdlc3w0MjIzODZ8aW1hZ2UvcG5nfGltYWdlcy9oZjgvaGMwLzk5NTQ3ODYwMTczMTAucG5nfDVjYzBlZGE4YTMxN2M5OTI5YjQ4ODViYTQ1YWMwZGUxNjdjMDY5NWRhMGExMjAxZWJmMzZmY2E5MWQ0ZTU4NGQ"
+                  alt="playera juventus"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h3>Juventus FC<br /><span>$1500</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec2" id="promociones">
+      <div class="container h100">
+        <div class="contentBox h100">
+          <div>
+            <h1>PROMOCIONES<br /></h1>
+            <p>¡¡50% DE DESCUENTO EN JERSEYS DE LA TEMPORADA PASADA!!</p>
+            <button type="button" class="btn btn-light">Ir a comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec3" id="catalogo">
+      <div class="container">
+        <div class="row">
+          <div class="offset-sm-2 col-sm-8">
+            <div class="headerText text-center">
+              <h2>CATÁLOGO</h2>
+              <p>¡Revisa todas nuestras diferentes líneas de productos!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="blogpost">
+              <div class="imgBx">
+                <img
+                  src="https://www.cultofutbol.com/medias/jersey-nike-club-america-local-2021-vapor-match-cf-CD4181-707-4.png?context=bWFzdGVyfGltYWdlc3w4NDI3MHxpbWFnZS9wbmd8aW1hZ2VzL2gzYi9oZWEvMTAwMTU4NjcxNDIxNzQucG5nfDRkMDAxNjhhYzNlZWMxZmE0MzViMTVkZTI2ZTY3YWRiMTg5M2RlYzkyMGRiN2RmYjM5ZDM1Y2JjNTI1OTNlNmM"
+                  alt="messi"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h1>Liga MX.</h1>
+                <p>
+                  ¡Encuentra aquí todas las jerseys de tus equipos mexicanos
+                  favoritos!
+                </p>
+                <button type="button" class="btn btn-dark">Ver Sección</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="blogpost">
+              <div class="imgBx">
+                <img
+                  src="https://assets.adidas.com/images/w_600,f_auto,q_auto/03565f933a0e4124b263aae7007e4e14_9366/Jersey_Local_Alemania_Blanco_EH6104_22_model.jpg"
+                  alt="messi"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h1>Selecciones Nacionales.</h1>
+                <p>
+                  ¡Encuentra aquí todas las jerseys de tu selecciones favoritas,
+                  gran variedad!
+                </p>
+                <button type="button" class="btn btn-dark">Ver Sección</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="blogpost">
+              <div class="imgBx">
+                <img
+                  src="https://media.futbolmania.com/media/catalog/product/cache/1/image/0f330055bc18e2dda592b4a7c3a0ea22/f/m/fm4735_imagen-de-la-camiseta-de-futbol-primera-equipacion-adidas-real-madrid-2020-2021-blanco_1_frontal.jpg"
+                  alt="messi"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h1>Europa.</h1>
+                <p>
+                  ¡Encuentra aquí todas las jerseys de tus equipos europeos
+                  favoritos! *Pregunta por estampados*
+                </p>
+                <button type="button" class="btn btn-dark">Ver Sección</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="blogpost">
+              <div class="imgBx">
+                <img
+                  src="https://images.asos-media.com/products/adidas-originals-retro-germany-football-jersey-in-white-ce2343/8719596-1-white?$XXL$&wid=513&fit=constrain"
+                  alt="messi"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="content">
+                <h1>Retro.</h1>
+                <p>
+                  ¿Onda retro? ¡Encuentra aquí algunas de las jerseys históricas
+                  más memorables!
+                </p>
+                <button type="button" class="btn btn-dark">Ver Sección</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec4" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="headerTexto text-center">
+              <h2>Contacto</h2>
+              <p>
+                ¿Tienes alguna duda? <br />
+                ¡No dudes en contactarnos!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row clearfix">
+          <div class="offset-sm-2 col-sm-8">
+            <form action="">
+              <div class="form-group">
+                <label for="">Nombre Completo</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Correo Electrónico</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Número de telefono</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Mensaje</label>
+                <textarea
+                  class="form-control textarea"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button type="button" class="btn btn-outline-dark">
+                  Enviar Mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class="sci">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+            </ul>
+            <p class="cpryt">Mauricio Acuña Hernández</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).scroll(function () {
+        $(".navbar").toggleClass(
+          "scrolled",
+          $(this).scrollTop() > $(".navbar").height()
+        );
+      });
+    </script>
+  </body>
+</html>
